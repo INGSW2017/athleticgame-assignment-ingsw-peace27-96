@@ -19,6 +19,7 @@ public class AthleticGameBasicTest {
 
 	@Test
 	public void addArrivalTest() {
+		System.out.println("CIAO");
 		athleticGame.addArrival("Totti", Instant.now());
 		Assert.assertEquals(1, athleticGame.getArrivals().size());
 	}
